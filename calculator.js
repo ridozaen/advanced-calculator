@@ -43,7 +43,7 @@ class Calculator {
     return this;
   }
 
-  powerA(num) {
+  power(num) {
     const { number } = this;
     for (let i = 1; i < num; i += 1) {
       this.number *= number;
