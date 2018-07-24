@@ -45,7 +45,7 @@ class Calculator {
 
   power(num) {
     const { number } = this;
-    for (let i = 1; i < num; i += 1) {
+    for (let i = 1; i < num; i += 2) {
       this.number *= number;
     }
     return this;
