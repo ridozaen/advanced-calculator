@@ -35,17 +35,10 @@ class Calculator {
     return this;
   }
 
-  power(num) {
+  power() {
+    const { num } = this;
     const { number } = this;
     for (let i = 1; i < num; i += 1) {
-      this.number *= number;
-    }
-    return this;
-  }
-
-  power(num) {
-    const { number } = this;
-    for (let i = 1; i < num; i += 2) {
       this.number *= number;
     }
     return this;
